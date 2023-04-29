@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FORMULARIOS</h1>
+    <form action="segundo.html" method="get">
+        <!-- Entrada de datos 
+        1. etiqueta <input> : text, number tel, mail -->
+
+        <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Indica tu nombre" maxlength="30" minlength="3" required pattern="[a-zA-ZáéíóúÁÉÍÓÚÑñ ]+" autocomplete="on">
+
+        <label for="apellidos">Apellidos</label>
+        <input type="text" id="apellidos" name="apellidos" placeholder="Indica tus apellidos" required pattern="[a-zA-ZáéíóúÁÉÍÓÚÑñ ]+" autocomplete="on">
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono"  placeholder="Indica tu telefono" required pattern="[6789]{1}[0-9]{8}">
+<br>
+        <label for="sueldo">Sueldo esperado</label>
+        <input type="number" id="sueldo" name="sueldo" placeholder="Que sueldo esperas recibir" min="500" max="3000" autocomplete>
+        
+        <input type="range" min="500" max="3000" id="sueldo2" name="sueldo2">    
+<br>
+<input type="email" placeholder="Indica tu email" id="email" name="email" required pattern="">
+
+<br>
+        <input type="submit" value="Enviar formulario">
+
+    </form>
+</body>
+</html>

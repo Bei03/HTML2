@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    table, th, td {
+        border: 3px solid pink;
+        border-collapse: collapse;
+        padding: 10px;
+    }
+
+</style>
+</head>
+<body>
+    <h2>CLASE PARA CREAR UNA TABLA</h2>
+    <p>Definir la tabla con la etiqueta table</p>
+    <table>
+        <caption>Tabla sencilla</caption>
+        <tr>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>DNI</th>
+<br>
+        </tr>
+        <tr>
+                <td>Beatriz</td>
+                <td>Mena Almansa</td>
+                <td>06292398N</td>
+        </tr>
+        <tr>
+                <td>Laura</td>
+                <td>Mena Almansa</td>
+                <td>06292399T</td>
+        </tr>
+    </table>
+
+    <h2>TABLA CON DOBLE ENCABEZADO, uno horizontal y otro vertical</h2>
+    <table>
+        <caption>Listado de meses y estaciones</caption>
+        <tr>
+            <th></th>
+            <th>Invierno</th>
+            <th>Primavera</th>
+            <th>Verano</th>
+            <th>Otoño</th>
+
+        </tr>
+        <tr>
+            <th>Primero</th>
+            <td>34</td>
+            <td>789</td>
+            <td>2938</td>
+            <td>56</td>
+        </tr>
+        <tr>
+            <th>Segundo</th>
+            <td>992</td>
+            <td>12</td>
+            <td>829</td>
+            <td>9999</td>
+        </tr>
+         <tr>
+            <th>Tercero</th>
+            <td>245</td>
+            <td>2545</td>
+            <td>6546</td>
+            <td>7678</td>
+        </tr>
+
+    </table>
+    <table>
+        <caption>Tabla con <b>rowspan</b>, es decir, con unión de celdas en VERTICAL</caption> 
+        <br><tr>
+            <th></th>
+            <th>Enero</th>
+            <th>Febrero</th>
+            <th>Marzo</th>
+            <th>Abril</th>
+            <th>Mayo</th>
+            <th>Junio</th>
+        </tr>
+        <tr>
+            <th>Bueno</th>
+            <td>5465</td>
+            <td>356</td>
+            <td>345</td>
+            <td rowspan="2">222</td>
+            <td>273</td>
+            <td>767</td>
+
+        </tr>
+        <tr>
+            <th>Bonito</th>
+            <td>345</td>
+            <td rowspan="2">456</td>
+            <td>332</td>
+            <td>786</td>
+            <td>23478</td>
+        </tr>
+        <tr>
+            <th>Barato</th>
+            <td>435</td>
+            <td>234</td>ç
+            <td>22225</td>
+            <td>326</td>
+            <td>76767</td>
+        </tr>
+    </table>
+    <br> <br>
+    <table>
+        <caption>Tabla con <b>colspan</b>, es decir, unión de celdas en HORIZONTAL</caption>
+        <tr>
+            <th></th>
+            <th>Abril</th>
+            <th>Mayo</td>
+            <th>Junio</th>
+            <th>Julio</th>
+            <th>Agosto</th>
+            <th>Septiembre</th>
+        </tr>
+        <tr>
+            <th>Exponente</th>
+            <td>345</td>
+            <td>235</td>
+            <td>235</td>
+            <td>23785</td>
+            <td>5757</td>
+            <td>8383</td>
+        </tr>
+        <tr>
+            <th>Resultado</th>
+            <td colspan="2">688</td>
+            <td>2333</td>
+            <td colspan="2">888</td>
+            <td>7575</td>
+        </tr>
+    </table>
+</body>
+</html>

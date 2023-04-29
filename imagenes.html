@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imágenes en HTML</title>
+    <style>
+        #marconburbujas, #maratardecer  {
+            border: 5px solid rgb(243, 155, 206);
+            width: 350px;  height: 300px;
+            margin: 30px;
+            margin-right: 70px;
+        }
+        #bloque1, figure, {
+            padding: 10px;
+            border: 6px solid;
+            border-color: rgb(84, 2, 161);
+            width: 62.3%;
+            text-align: center;
+        }
+
+</style>
+</head>
+<body>
+    <h1>Imágenes en HTML</h1>
+    <img src="IMG/burbujas.webp" alt="El mar desde dentro con burbujitas" id="marconburbujas">
+    <img src="IMG/maratardecer.jpg " alt="Atardecer en el mar" id="maratardecer">
+    <div id="bloque1">
+        <h3>La Luna llena es un fenómeno maravilloso</h3>
+        <img src="IMG/lunallena-removebg-preview.png" alt="Luna llena" id="lunallena">
+    </div>
+
+
+    <figure>
+        <figcaption>Fases del cielo</figcaption>
+            <img src="IMG/cieloconrayo.jpg" alt="Cielo con rayo" class="galeria">
+            <img src="IMG/gatoluna.webp" alt="gato con la luna" class="galeria">
+            <img src="IMG/maratardecer.jpg" alt="mar atardecer"class="galeria">
+
+    </figure>
+</body>
+</html>
