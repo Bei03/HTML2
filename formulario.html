@@ -5,10 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        form{
+            display: block;
+            margin-top: 5%;
+        }
+        input {
+            padding: 5px 15px;
+            width: 300px;
+
+        }
+    </style>
 </head>
 <body>
     <h1>FORMULARIOS</h1>
-    <form action="segundo.html" method="get">
+    <form action="segundo.html" method="get" enctype="multipart/form-data">
         <!-- Entrada de datos 
         1. etiqueta <input> : text, number tel, mail -->
 
@@ -26,7 +37,23 @@
         
         <input type="range" min="500" max="3000" id="sueldo2" name="sueldo2">    
 <br>
-<input type="email" placeholder="Indica tu email" id="email" name="email" required pattern="">
+<input type="email" placeholder="Indica tu email" id="email" name="email" required>
+
+<br>
+<label for="archivo">Inserta el DNI</label>
+<input type="file" id="archivo" accept=".pdf,.docx"> 
+
+<br>
+<fieldset>
+    <legend>Datos académicos</legend>
+    <input type="text" placeholder="Titulación" id="titulacion" name="titulacion">
+    <label for="fechaT">Fecha Titulación</label>
+    <input type="date" id="fechaT" name="fechaT">
+    <input type="text" placeholder="Institución" name="institucion" id="institucion">
+
+
+</fieldset>
+
 
 <br>
         <input type="submit" value="Enviar formulario">
