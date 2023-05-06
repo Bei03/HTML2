@@ -7,7 +7,7 @@
     <title>Document</title>
     <style>
         form{
-            display: block;
+            display:block;
             margin-top: 5%;
         }
         input {
@@ -50,13 +50,108 @@
     <label for="fechaT">Fecha Titulación</label>
     <input type="date" id="fechaT" name="fechaT">
     <input type="text" placeholder="Institución" name="institucion" id="institucion">
-
-
 </fieldset>
 
+<br>
+<label for="mensaje"> Mensaje:</label>
+<textarea name="mensaje" id="mensaje" cols="60" rows="10"> </textarea>
+<br>
+
+<!--RADIOBOTTON-->
+<label>Seleccione nivel de inglés</label> 
+<br>
+Básico <input type="radio" name="nivelingles" value="básico">
+Intermedio <input type="radio" name="nivelingles" value="intermedio">
+Avanzado <input type="radio" name="nivelingles" value="avanzado">
 
 <br>
-        <input type="submit" value="Enviar formulario">
+<fieldset>
+    <legend>Datos de inicio de sesión</legend>
+    <label for="username">Nombre de usuario</label>
+    <input type="text" name="nombre" id="nombre">
+    <label>Indica tu contraseña</label>
+    <input type="password" name="username" id="username">
+    <label>Repite tu contraseña</label>
+    <input type="password" id="password" name="password" maxlength="10" minlength="8">
+</fieldset>
+    <br>
+<label for="horario">Horario de conexión</label>
+    <select name="horario" id="horario">
+        <option></option>
+        <option value="amanecer">Mañana</option>
+        <option value="mediodia">Mediodía</option>
+        <option value="tarde">Tarde</option>
+        <option value="noche">Noche</option>
+    </select>
+
+
+<br><br>
+    <label for="dispositivo">Dispositivo de conexión</label>
+    <select name="dispositivo" id="dispositivo" multiple>
+        <option value="movil">Smartphone</option>
+        <option value="tablet">Tablet</option>
+        <option value="pc">Ordenador</option>
+        <option value="smartv">Smart TV </option>
+</select>
+
+
+<br><br>
+<p>Seleccione jornada</p>
+<label for="morning">Jornada laboral</label>
+<input type="checkbox" id="morning" name="morning" value="morning">
+
+<label for="tarde">Tarde</label>
+<input type="checkbox" id="tarde" name="tarde" value="tarde">
+
+<label for="indiferente">Indiferente</label>
+<input type="checkbox" id="indiferente" name="indiferente" value="indiferente">
+
+<label for="teletrabajo">Teletrabajo</label>
+<input type="checkbox" id="teletrabajo" name="teletrabajo" value="teletrabajo">
+
+<br>
+<label for="colorPreferido">Color Preferido</label>
+<input type="color" name="colorPreferido" id="colorPreferido">
+
+<br><br>
+<label for="tuWeb">Página web</label>
+<input type="url" id="tuWeb" name="tuWeb">
+
+<br><br>
+<h4>Etiquetas de tiempo</h4>
+
+<label for="mes">Seleccionar mes</label>
+<input type="month" id="mes" name="mes">
+
+<label for="hora">Hora de llegada</label>
+<input type="time" id="hora" name="hora">
+
+<label for="fechaYHora">Fecha y hora</label>
+<input type="datetime-local" id="fechaYHora" name="fechaYHora">
+
+<label for="semana">Semana</label>
+<input type="week" id="semana" name="semana">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+  <input type="submit" value="Enviar formulario">
+  <input type="reset" value="Limpiar formulario">
+
+<br>
+      
 
     </form>
 </body>

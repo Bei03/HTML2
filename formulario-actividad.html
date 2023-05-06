@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            display:block;
+            margin-top: 5%;
+        }
+        input ¨{
+        padding: 10px 20px;
+        width: 50px; 
+
+        }
+        
+    </style>
+</head>
+<body>
+<h1>FORMULARIO DE SUSCRIPCIÓN</h1>
+<form action="formulario.html" method="get" enctype="multipart/form-data">
+
+
+<fieldset>
+    <legend>Datos para el Registro</legend>
+    <label for="correo">Correo electrónico: *</label>
+    <input type="email" placeholder="tunombre@dominio.com" id="correo" name="correo">
+<p>
+    <label for="contrasena">Contraseña</label>
+    <input type="password" id="contrasena" name="contrasena">
+</fieldset>
+</p>
+
+<fieldset>
+    <legend>Datos personales</legend>
+    <p>
+    <label for="name">Nombre: *</label>
+    <input type="text" id="name" name="name" placeholder="Tu nombre" required pattern="[a-zA-ZáéíóúÁÉÍÓÚÑñ ]+">
+</p>
+<p>
+    <label for="apellidos">Apellidos: *</label>
+    <input type="text" id="apellidos" name="apellidos" placeholder="Tus apellidos" required pattern="[a-zA-ZáéíóúÁÉÍÓÚÑñ ]+">
+</p>
+<p>
+    <label for="ntelefono">Teléfono</label>
+    <input type="tel" id="ntelefono" name="ntelefono" placeholder="+34 999999999" required pattern="[6789]{1}[0-9]{8}">
+</p>
+<p>
+    Mujer<input type="radio" name="mujer" value="mujer">
+    Hombre <input type="radio" name="hombre" value="hombre">
+</p>
+<p>
+    <label for="edad">Edad</label>
+    <input type="number" id="edad" name="edad" placeholder="24" minlength="1" maxlength="2">
+
+</p>
+    <label for="buscar">Buscar</label>
+    <input type="search" id="buscar" name="buscar" placeholder="Ej: Portátil">
+<p>
+
+    <label for="fechanacimiento">Fecha de nacimiento</label>
+    <input type="date"  id="fechanacimiento" name="fechanacimiento">
+</p>
+<p>
+    <label for="fechapadre">Fecha y hora de nacimiento de tu padre</label>
+    <input type="datetime-local" id="fechapadre" name="fechapadre">
+</p>
+<p>
+    <label for="mesviaje">¿En qué mes te gustaría viajar?</label>
+    <input type="month" id="mesviaje" name="mesviaje">
+</p>
+
+    <label for="semanaviaje">¿En qué semana te gustaría viajar?</label>
+    <input type="week" id="semanaviaje" name="semanaviaje">
+<p>
+
+    <label for="hora">¿A qué hora te puedo llamar?</label>
+    <input type="time" id="hora" name="hora">
+</p>
+
+    <label for="enviarfoto">Envía tu foto: (.jpg)</label>
+    <input type="file" id="enviarfoto" name="enviarfoto" accept=".jpg">
+</fieldset>
+
+<br>
+<fieldset>
+<legend>Sobre tus redes sociales</legend>
+   ¿Cuál utilizas? <br>
+   <label for="facebook">Facebook</label>
+    <input type="checkbox" id="facebook" name="facebook"> 
+
+    <label for="twitter">Twitter</label>
+    <input type="checkbox" id="twitter" name="twitter">
+
+    <label for="linked">Linkedin</label>
+    <input type="checkbox" id="linked" name="linked">
+
+    <label for="insta">Instagram</label>
+    <input type="checkbox" id="insta" name="insta">
+
+    <label for="whatsapp">WhatsApp</label>
+    <input type="checkbox" id="whatsapp" name="whatsapp">
+
+    <label for="snapchat">Snapchat</label>
+    <input type="checkbox" id="snapchat" name="snapchat">
+
+    <label for="pinterest">Pinterest</label>
+    <input type="checkbox" id="pinterest" name="pinterest">
+
+
+<br><br>
+    <label for="tiemporedes">Tiempo aproximado que las utilizas</label>
+  1h  <input type="range" min="1" max="24" id="tiemporedes" name="tiemporedes">24h
+
+<br><br>
+    <label for="web">¿Tienes página Web o blog?</label>
+    <input type="url" id="web" name="web">
+</fieldset>
+
+<br>Los datos señalados con * son obligatorios para el registro<br>
+<input type="submit" value="Enviar formulario">
+
+</body>
+</html >
