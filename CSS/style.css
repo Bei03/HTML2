@@ -1,0 +1,58 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+body {
+    padding: 1px; 
+    background-color: rgba(236, 134, 232, 0.523); background-image: url("../IMG/resto/favicondos.png");
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-attachment: fixed;
+    background-size: cover; 
+ 
+
+}
+.izquierda{
+    text-align: left;
+    color: rgb(8, 181, 224);
+}
+
+.my-header{
+
+}
+
+
+.textocentrado {
+    text-align: center;
+    margin: 5%;
+    width: 75%;
+   
+}
+
+/* Para centrar un bloque horizontalmente. Div: header footer section*/
+.bloquecentrado{
+    margin: auto; 
+    width: 50%;
+
+/*Borde tiene 3 propiedades: ancho,forma(solid es linea normal, double es doble linea, dotted es puntitos, inset es 3D, groove hace un marco a doble color, dashed es un borde discontinuo inset son dos colores, mitad mitad ),color*/
+    border-width: 10px;
+    border-style: groove;
+    border-color: aqua;
+
+
+   
+    /* Para hacer las esquinas redondeadas*/
+    border-radius: 25px 0px 25px 0px;
+}
+
+.parrafo-borde-izq {
+    border-left: 8px solid coral;
+}
+
+.bloqueopaco{
+    background-color: rgba(77, 170, 15, 0.486);
+    text-align: center;
+    margin: auto;
+ 
+}
+
