@@ -1,0 +1,111 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.menu1, .menu2{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: rgb(230, 246, 246);
+}
+
+.menu1 li a{
+    display: block;
+    color:rgb(255, 153, 243);
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.menu1 li a:hover{
+    background-color: rgb(255, 153, 243);
+    color: black;
+    letter-spacing: 2px;
+}
+
+.menu2{
+border: 1px solid rgb(0, 0, 0);
+}
+
+.menu2 li a{
+    display: block;
+    color: rgb(178, 168, 220);
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.menu2 li{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    text-align: center;
+}
+
+.menu2 li:last-child{
+    border-bottom: none;
+}
+
+.menu2 li a.active{
+    background-color: thistle;
+    color: rgb(255, 255, 255);
+}
+
+.menu2 li a:hover:not(a.active){
+    background-color: thistle;
+    color: bisque;
+}
+
+.menu3{
+    list-style: none;
+    background-color: rgb(138, 200, 255);
+    margin: 0;
+    padding: 0;
+    top: 0;
+    position: sticky;
+    overflow: hidden;
+}
+
+.menu3 li a{
+    display: block;
+    color: azure;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.menu3 li{
+    float: left;
+    margin: auto;
+}
+
+.menu3 li a:hover{
+    background-color: lightcoral;
+}
+
+.active{
+    background-color: lightpink;
+    color: aqua;
+}
+
+.divcentrado{
+    background-color: lemonchiffon;
+    padding: 20px;
+    margin: auto;
+}
+
+.menu4{
+    margin: auto;
+    list-style: none;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+}
+
+.menu4 li a{
+    text-decoration: none;
+    color: rgb(186, 223, 255);
+    text-align: center;
+    padding: 16px 20px;
+}
+
+.menu4 li a:hover{
+    background-color: rgb(229, 182, 229);
+}

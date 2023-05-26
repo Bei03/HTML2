@@ -1,0 +1,136 @@
+.contenedor{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 20px 25px;
+}
+
+a {
+    text-decoration: none;
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin: auto;
+    
+
+}
+
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: #302F34;
+    color: white;
+    text-decoration: underline solid coral;
+    letter-spacing: 5px;
+    margin: auto;
+
+}
+
+
+
+.menuP{
+    background-color:#302F34;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+
+.menu{
+    list-style-type: none;
+    display: inline-flex;
+    text-align: center;
+    padding: 25px ;
+    margin: auto;
+}
+
+
+menu li{
+    padding: 25px 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+
+}
+
+.p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    text-align: justify;
+    color: #302F34;
+    margin: auto;
+    width: 90%;  
+}
+
+.div{
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+.fotop{
+    width: 35%;
+    float:left;
+}
+.p2{
+    width: 70%;
+    margin: auto;
+}
+
+.t1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform:uppercase ;
+}
+
+.qsomos{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+
+
+}
+.tablad{
+    padding: 20px 30px;
+    margin: auto;
+    width: 30%;
+    text-align: center;
+}
+th{
+    padding: 20px 60px;
+    border: 2px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    margin: auto;
+    background-color:#302f34df;
+    color: white;
+}
+td{
+    border:2px solid white;
+    background-color:#302f34d6;
+    padding: 20px 0;
+    color: white;
+}
+
+.servicios{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    width: 20%;
+    padding: 10px;
+    text-align: left;
+    padding: 40px 30px;
+
+}
+
+.ctto{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+    width: 90%;
+    padding: 10px;
+    text-align: left;
+
+}
