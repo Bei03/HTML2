@@ -1,0 +1,122 @@
+.contenedor{
+    width: 60%;
+    margin: auto;
+}
+.tituloP{
+    color: rgb(255, 183, 220);
+    background-color: rgb(166, 251, 166);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.parrafo1{
+    text-align: justify;
+    text-align-last: right;
+}
+
+.loca{
+    direction: rtl;
+    background-color: rgb(234, 158, 59);
+    unicode-bidi: bidi-override;
+}
+
+.img1 {
+    vertical-align: baseline;
+    width: 26px;
+    height: 26px;
+
+} 
+
+.img2 {
+    vertical-align: text-top;
+    width: 26px;
+    height: 26px;
+}
+
+.img3 {
+    vertical-align: text-bottom;
+    width: 26px;
+    height: 26px;
+}
+
+.img4 {
+    vertical-align: sub;
+    width: 26px;
+    height: 26px;
+}
+
+.img5 {
+    vertical-align: super;
+    width: 26px;
+    height: 26px;
+}
+
+.p1 {
+    text-decoration: overline;
+    text-decoration-color: rgb(255, 0, 0);
+    text-decoration-style: dashed;
+    text-decoration-thickness: 4px
+    
+}
+.p2 {
+    text-decoration: line-through;
+    text-decoration-color:lightcoral;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 4px ;
+
+}
+.p3 {
+    text-decoration: underline;
+    text-decoration-color:rgb(255, 155, 15); 
+    text-decoration-style: groove;
+    text-decoration-thickness: 4px
+}
+.p4 {
+    text-decoration: overline underline;
+    text-decoration-color:rgb(207, 255, 15);
+    text-decoration-style: outset;
+    text-decoration-thickness: 4px 
+
+}
+.p5 {
+    text-decoration: underline goldenrod wavy 4px;
+}
+
+.enlace1 {
+    text-decoration: none;
+    padding: 10px ;
+    border: 3px solid rgb(89, 238, 35);
+    margin: auto;
+    color: pink;
+}
+
+.t1 {
+    text-transform: uppercase;
+    color: palegreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-indent: 20px;
+    text-shadow: 3px 3px pink;
+}
+
+.t2 {
+    text-transform: lowercase;
+    color: orange;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 15px;
+    text-shadow: 2px 2px 4px rgb(102, 102, 235);
+}
+
+.t3 {
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 5.5;
+    text-shadow: 0 0 4px rgb(255, 0, 85)
+}
+
+.t4 {
+    font-variant: small-caps;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    word-spacing: 10px;
+    text-shadow: 0 0 6px rgb(10, 23, 255), 0 0 5px rgb(255, 8, 160);
+}
