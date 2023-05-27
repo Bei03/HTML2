@@ -107,10 +107,88 @@ ul, ol{
 
 .lista2 li:last-child{
     background-color: gold;
+    list-style: square; 
     color: indianred;
+    list-style: inside;
+}
+
+.lista3 {
+    background-color: lightsalmon;
+    color: white;
+    list-style: url("../IMG/light_mode_FILL0_wght400_GRAD0_opsz48.png");
 }
 
 .lista3 li:first-child{
-    background-color: lightsalmon;
-    color: white;
+    list-style: inside url("../IMG/mode_heat_FILL0_wght400_GRAD0_opsz48.png");
+}
+
+
+
+
+
+.tabla, .tabla2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse; /*para que se unan con una sola línea*/
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.tabla td, .tabla th{
+    border: 3px solid rgb(255, 0, 0);
+    padding: 8px;
+}
+
+.tabla th{
+    background-color: rgba(82, 248, 226, 0.732);
+    text-align: center;
+    padding: 10px 0;
+    color: rgb(0, 173, 186);
+}
+
+/*Par: even; impar: odd*/
+
+.tabla tr:nth-child(even){
+    background-color: rgb(254, 177, 236);
+}
+
+.tabla tr:nth-child(odd){
+    background-color: rgb(216, 240, 35);
+}
+
+.tabla tr:hover{
+    background-color: rgb(250, 117, 255);
+}
+
+.tabla2 tr{
+    border-bottom: 2px solid hotpink; 
+    padding: 15px 0;
+    background-color: bisque;
+
+}
+
+.tabla2 tr:hover{
+    background-color: honeydew;
+}
+
+.tabla3{
+    border: solid 2px sandybrown;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px  skyblue;
+    border-spacing: 0;
+    width: 70%;
+    margin: auto;
+}
+
+.tabla3 td{
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid;
+}
+
+
+.tabla3 tr:last-child{
+    border:none
 }
