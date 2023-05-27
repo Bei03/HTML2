@@ -144,7 +144,8 @@ border: 1px solid rgb(0, 0, 0);
     width:332px;
     background-color: rgb(255, 205, 126);
     box-shadow: 2px 3px 2px 2px rgb(247, 1, 227);
-    z-index: 1; /*para que se ponga por encima de cualquier otro elemento*/
+    z-index: 1; /*para que se ponga por encima de cualquier otro elemento. Si queremos que esté ppor debajo, tendremos que poner el numero negativo*/
+    
 }
 
 .dropdown-content a{
